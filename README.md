@@ -1,6 +1,6 @@
 
 
-# Individual Project - Dogs
+# Proyecto Individual- Dogs
 
 <img height="200" src="./dog.png" />
 

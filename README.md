@@ -1,9 +1,9 @@
 
 
 # Proyecto Individual- Dogs
-
-<img height="200" src="./dog.png" />
-
+<p align="center">
+<img height="300" src="./dog.png" />
+</p>
 ## Tecnologias
 
 - React

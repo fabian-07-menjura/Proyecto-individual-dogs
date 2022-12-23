@@ -1,0 +1,44 @@
+.registroCompletado {
+  align-items: center;
+  background: black;
+  border-radius: 2vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 5vw 0 0 32vw;
+  padding: 2vw 1vw 2vw 1vw;
+  text-align: center;
+  width: 30vw;
+}
+
+.iconoRegistroCompletado {
+  background-image: url(./checkmark.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 4.1vw;
+  margin-bottom: 1vw;
+  width: 4.1vw;
+}
+
+.textoRegistroCompletado {
+  max-width: 20vw;
+}
+
+.btnVerRazas {
+  background: black;
+  border-color: white;
+  border-radius: 1vw;
+  color: white;
+  font-size: 1.5vw;
+  height: 4vw;
+  transition: all ease 0.5s;
+  width: 10vw;
+}
+.btnVerRazas:hover {
+  color: rgb(21, 183, 21);
+  cursor: pointer;
+  border-color: rgb(21, 183, 21);
+  box-shadow: 0 0 10px 2px rgb(21, 183, 21);
+  font-size: 1.4vw;
+}

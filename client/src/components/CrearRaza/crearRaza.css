@@ -1,0 +1,97 @@
+.seccionCrearRaza {
+  background-color: black;
+  border-radius: 1vw;
+  box-shadow: 0 0 10px 2px rgb(234, 124, 14);
+  margin-left: 22vw;
+  margin-top: 1vw;
+  padding: 1.7vw;
+  width: 50vw;
+}
+.titulo {
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+}
+.divBtn {
+  height: 5vw;
+  width: 5vw;
+}
+.button {
+  background-color: black;
+  border-color: white;
+  border-radius: 1vw;
+  color: white;
+  font-size: 2vw;
+  margin-left: 18vw;
+  padding: 1vw;
+  width: 15vw;
+  transition: all ease 0.2s;
+}
+.button:hover {
+  border-color: rgb(21, 183, 21);
+  box-shadow: 0 0 10px 2px rgb(21, 183, 21);
+  color: rgb(21, 183, 21);
+  cursor: pointer;
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+.input-container {
+  font-weight: 300;
+  margin-bottom: 1vw;
+  position: relative;
+}
+
+.input {
+  background: black;
+  border-bottom: 3px solid green;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.5vw;
+  height: 3.25rem;
+  padding: 1.375rem 0.5rem 0.5rem;
+  width: 100%;
+}
+
+.input::placeholder {
+  visibility: hidden;
+}
+
+.input:focus {
+  outline: none;
+}
+.input-menssage-error {
+  display: none;
+}
+.input-label {
+  font-size: 20px;
+  left: 0.5rem;
+  position: absolute;
+  top: 1.375rem;
+  transition: all 0.25s;
+  color: white;
+}
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+.tituloTemp {
+  color: white;
+  font-size: 1.7vw;
+}
+.selectTemp {
+  background: black;
+  border-radius: 0.5vw;
+  color: white;
+  font-size: 1.3vw;
+  height: 2.5vw;
+  width: 15vw;
+}
+.selectTemp:focus {
+  border-color: rgb(21, 183, 21);
+}
+
+.tempAñadidos {
+  color: white;
+}

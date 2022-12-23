@@ -1,0 +1,55 @@
+.divDetalle {
+  padding: 3vw 0 3vw 5vw;
+}
+.divBtn {
+  margin: 1vw 3vw 2vw 2vw;
+}
+
+.detalleCard {
+  background: black;
+  border-radius: 1vw;
+  box-shadow: 0 0 10px 2px rgb(234, 124, 14);
+  display: flex;
+  height: 40vw;
+  width: 90vw;
+}
+
+.detalleCard h1 {
+  color: white;
+  font-size: 2vw;
+  padding: 1vw 1vw 2vw 3vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+.detalleCard section {
+  color: white;
+  height: 35vw;
+  margin: 2vw;
+  width: 50vw;
+}
+.detalleCard img {
+  border-radius: 100%;
+  height: 30vw;
+  padding: 3vw 3vw 3vw 3vw;
+  width: 30vw;
+}
+.detalleCard p {
+  font-size: 1.5vw;
+}
+.volver {
+  background: black;
+  border-color: white;
+  border-radius: 1vw;
+  color: white;
+  font-size: 7vw;
+  width: 10vw;
+  transition: all ease 0.3s;
+}
+.volver:hover {
+  border-color: rgb(21, 183, 21);
+  box-shadow: 4px 0px 25px 10px rgb(21, 183, 21);
+  color: rgb(21, 183, 21);
+  font-size: 6.7vw;
+  font-weight: bold;
+  cursor: pointer;
+}

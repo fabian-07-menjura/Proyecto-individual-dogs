@@ -1,0 +1,56 @@
+.divPerro {
+  background: url("./imagenes/perros1.jpg") no-repeat center / cover;
+  width: 50vw;
+}
+.divPrincipal {
+  display: flex;
+}
+.divInformacion {
+  background: rgb(21, 183, 21);
+  padding: 1vw 7vw 0vw 5vw;
+  width: 40vw;
+}
+
+.divInformacion h1 {
+  font-size: 2.5vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+.divInformacion p {
+  font-size: 1.4vw;
+  font-weight: bold;
+  margin-top: 2vw;
+  text-align: center;
+}
+.logoDog {
+  background: url("./imagenes/logo3.png") no-repeat center / cover;
+  height: 15vw;
+  margin: 0 5vw 0vw 12.5vw;
+  width: 15vw;
+}
+.divInformacion button {
+  background: rgb(23, 22, 22);
+  border: none;
+  border-radius: 1vw;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+  height: 4vw;
+  letter-spacing: 3px;
+  margin: 2vw 5vw 3vw 10vw;
+  transition: all ease 0.9s;
+  text-transform: uppercase;
+  width: 20vw;
+}
+.divInformacion button:hover {
+  background: black;
+  box-shadow: 0 0 10px 2px rgb(234, 124, 14);
+  cursor: pointer;
+}
+
+.divInformacion h1 hr {
+  background: black;
+  border-color: black;
+  height: 0.2vw;
+  width: 30vw;
+}
